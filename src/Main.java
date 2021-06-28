@@ -17,5 +17,14 @@ public class Main {
         man1.setName("DEEP COPY!!!");
 
         man1.getFavoriteBooks().add("new book");
+        System.out.println("Source:");
+        System.out.println(man.getName());
+        System.out.println(man.getAge());
+        System.out.println(man.getFavoriteBooks().toString());
+        System.out.println();
+        System.out.println("Copy:");
+        System.out.println(man1.getName());
+        System.out.println(man1.getAge());
+        System.out.println(man1.getFavoriteBooks().toString());
     }
 }
